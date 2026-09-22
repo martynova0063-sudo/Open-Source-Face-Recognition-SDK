@@ -48,3 +48,17 @@ Thumbs.db
 *.mov
 *.wmv
 
+# Медиафайлы ПАК
+photos/**/*
+videos/**/*
+media/**/*
+
+
+# типичные для Python артефакты
+__pycache__/
+*.py[cod]
+*$py.class
+venv/
+.env
+.DS_Store
+
