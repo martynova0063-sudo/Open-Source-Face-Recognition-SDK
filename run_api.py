@@ -32,8 +32,8 @@ def parse_args() -> argparse.Namespace:
     parser.add_argument(
         "--port",
         type=int,
-        default=8000,
-        help="Порт для прослушивания (по умолчанию: 8000)",
+        default=3000,
+        help="Порт для прослушивания (по умолчанию: 3000)",
     )
     parser.add_argument(
         "--reload",
